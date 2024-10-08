@@ -3,8 +3,9 @@ import { Vehiculo } from "./Vehiculo";
 export class Camion extends Vehiculo{
  private puerta:number; 
     
-constructor(modelo: number, marca: string, color: string,puerta:number) {
-super(modelo, marca, color)
+constructor(modelo: number, marca: string, color: string, patente: string, puerta:number) {
+super(modelo, marca, color,patente)
+
 this.puerta=puerta;
   
 }
